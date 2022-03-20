@@ -1,9 +1,0 @@
-*.res
-*.exe
-*.o
-Makefile
-bongo
-bin/*
-NOTE
-config.json
-SFML-2.5.1/*
