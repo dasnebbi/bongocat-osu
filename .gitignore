@@ -4,4 +4,10 @@
 bongo
 bin/*
 NOTE
-SFML-2.5.1/*
+SFML-2.5.1/bin
+SFML-2.5.1/doc
+SFML-2.5.1/examples
+SFML-2.5.1/include
+SFML-2.5.1/lib
+SFML-2.5.1/license.md
+SFML-2.5.1/readme.md
