@@ -20,6 +20,13 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
         continue;
     }
 
+    Json::Value bg_size = data::cfg["custom"]["bg_size"];
+    int x = bg_size[0].asInt();
+    int y = bg_size[1].asInt();
+
+    window.create(sf::VideoMode(x, y), "Bongo Cat for osu!", sf::Style::Titlebar | sf::Style::Close);
+    window.setFramerateLimit(60);    
+    
     // initialize input
     if (!input::init()) {
         return EXIT_FAILURE;
