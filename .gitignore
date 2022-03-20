@@ -11,3 +11,4 @@ SFML-2.5.1/include
 SFML-2.5.1/lib
 SFML-2.5.1/license.md
 SFML-2.5.1/readme.md
+.vscode/*
